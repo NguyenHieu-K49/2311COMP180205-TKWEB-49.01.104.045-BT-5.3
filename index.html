@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fit-HCMUE Shop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <header class="card-header">
+            <h1 class="hh-company"><img src="./icons8-shopaholic-48.png" > <label style="font-size: xx-large;">FIT</label><sub><i style="color: yellow; font-size: x-large;">Market</i></sub></h1>
+            <h5 class="hh-slogan"><i>Mua sắm thả ga không lo về giá</i></h5>
+            <input class="search" type="search" placeholder="Tìm kiếm">
+            <input class="button" type="image" src="./magnifying-glass.png" width="25px" height="25px">
+            <div class="tong">
+                <input class="shopcart" type="image" src="./shopping-cart1.png" width="35px" height="35px">
+                <div class="giohang">Giỏ hàng: 0</div>
+            </div>
+        </header>
+    </div>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid" style="background-color: rgb(0, 166, 255); position: absolute; top: 0px;">
+          <a class="navbar-brand" style="position: relative; left: 100px;" href="#">Trang chủ</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item" >
+                <a class="nav-link active"  aria-current="page" href="#">Giới thiệu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sản phẩm</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Liên hệ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Hỏi đáp</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle"  href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Tài khoản
+                </a>
+                <ul class="dropdown-menu" >
+                  <li><a class="dropdown-item" href="#">Đăng nhập</a></li>
+                  <li><a class="dropdown-item" href="#">Đăng ký</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <div class="col-8 m-auto" style="position: absolute; top: 180px; left: 130px;">
+      <div class="row" >
+        <div class="col-4"  style="padding-bottom: 15px;">
+          <div class="card text-center">
+            <div class="card-header" >
+              IPhone 14
+            </div>
+            <div class="card-body">
+              <img src="data:image/jpeg;base64,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" width="70px" height="100px">
+            </div>
+            <div class="card-footer text-body-secondary">
+              $1019.9
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card text-center">
+            <div class="card-header">
+              ASUS ROG Phone 7
+            </div>
+            <div class="card-body">
+              <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSm9ZFo5GnSWhiqUVytHuwzShPnhGjodZdkuCnzsfDwBlGG4wvehonXn8MiVxXs4vhsUS26_ivRXzGXxvrAHW8PBOcXL9Xxz0P4XPUjefOPl1RtMNCbO3kL5g&usqp=CAE" width="70px" height="100px">
+            </div>
+            <div class="card-footer text-body-secondary">
+              $983.9
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card text-center">
+            <div class="card-header">
+              Galaxy Z Phone 5
+            </div>
+            <div class="card-body">
+              <img src="https://images.samsung.com/vn/smartphones/galaxy-z-fold5/buy/product_color_blue.png?imwidth=480" width="70px" height="100px">
+            </div>
+            <div class="card-footer text-body-secondary">
+              $350.0
+            </div>
+          </div>
+        </div>
+        <div class="col-4" style="padding-bottom: 15px;">
+          <div class="card text-center">
+            <div class="card-header">
+              Xiaomi Redmi K50
+            </div>
+            <div class="card-body">
+              <img src="https://viostore.vn/wp-content/uploads/2023/08/redmi-k50-gaming-11.jpg.png" width="70px" height="100px">
+            </div>
+            <div class="card-footer text-body-secondary">
+              $101.9
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card text-center">
+            <div class="card-header">
+              Laptop Gaming Acer Nitro 5
+            </div>
+            <div class="card-body">
+              <img src="https://cdn2.cellphones.com.vn/insecure/rs:fill:0:358/q:80/plain/https://cellphones.com.vn/media/catalog/product/l/a/laptop-gaming-acer-nitro-5-eagle-an515-57-5669-1.jpg" width="70px" height="100px">
+            </div>
+            <div class="card-footer text-body-secondary">
+              $229.9
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card text-center">
+            <div class="card-header">
+              Asus Rog Strix G
+            </div>
+            <div class="card-body">
+              <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRpxcTRy7BY9n11ygmRYC2pj-72VWZfy8Qpzsvfomo4w5o8lKZEFslzu2UBK4GgFI0gwTIwi1oUbnw8gb2_cSBlu1TjM_vguKGUH9NuEgbf&usqp=CAE" width="70px" height="100px">
+            </div>
+            <div class="card-footer text-body-secondary">
+              $513.9
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card text-center">
+            <div class="card-header">
+              PCHM Gaming 09
+            </div>
+            <div class="card-body">
+              <img src="https://laptopworld.vn/media/product/12727_v____case_vsp_esport_rog_es8_pink_____c___s___n_6_fan_rgb.jpg" width="70px" height="100px">
+            </div>
+            <div class="card-footer text-body-secondary">
+              $669.9
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card text-center">
+            <div class="card-header">
+              Thùng máy Case NZXT
+            </div>
+            <div class="card-body">
+              <img src="https://product.hstatic.net/200000420363/product/thung-may-case-nzxt-h9-elite_345406516f874974a2795698528015d2_master.jpg" width="70px" height="100px">
+            </div>
+            <div class="card-footer text-body-secondary">
+              $639.9
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card text-center">
+            <div class="card-header">
+              HHPC gaming i9
+            </div>
+            <div class="card-body">
+              <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSnNL6UOS-rPfaP5XdmkOP_X_d0Zcxv4ynQQ8jvPjitcFnOP71K2s4x7laDsijIcTrg8TfZWartwZBDZAHYgF0mEgEsIXTl&usqp=CAE" width="70px" height="100px">
+            </div>
+            <div class="card-footer text-body-secondary">
+              $819.9
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="dropdown" style="position: absolute; right: 50px; top: 130px;">
+        <button class="btn btn-warning " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <span style="color: white;">Danh mục sản phẩm </span>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2" style="color: white;" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <path d="M4 6l16 0"></path>
+            <path d="M4 12l16 0"></path>
+            <path d="M4 18l16 0"></path>
+            </svg>
+        </button>
+        <ul class="dropdown-menu" style="background-color: white;">
+          <li><button class="dropdown-item" type="button">Điện thoại</button></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><button class="dropdown-item" type="button">Máy tính </button></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><button class="dropdown-item" type="button">Laptop</button></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><button class="dropdown-item" type="button">Macbook</button></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><button class="dropdown-item" type="button">Airport</button></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><button class="dropdown-item" type="button">Đồ dùng điện tử</button></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><button class="dropdown-item" type="button">Khác...</button></li>
+        </ul>
+      </div>
+</body>
+</html>

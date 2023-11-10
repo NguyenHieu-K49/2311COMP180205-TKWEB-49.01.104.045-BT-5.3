@@ -1,0 +1,53 @@
+.container-fluid{
+    border: 2px;
+    background-color: rgb(0, 110, 255);
+}.card-header{
+    height: 130px;
+}.hh-company{
+    font-family: impact;
+    font-size: xx-large;
+    top: 25px;
+    left: 50px;
+    position: absolute;
+    color: aliceblue;
+}
+.hh-slogan{
+    font-size: larger;
+    top: 80px;
+    position: absolute;
+    left: 50px;
+    color: aliceblue;
+}
+.search{
+    position: absolute;
+    left: 400px;
+    top: 70px;
+    width: 450px;
+}
+.button{
+    position: absolute;
+    left:805px;
+    top: 73px;
+    width: 30px;
+}
+.tong{
+    border-radius: 2px;
+    background-color: aliceblue;
+}
+.shopcart{
+    position: absolute;
+    right: 200px;
+    top: 70px;
+}
+.giohang{
+    position: absolute;
+    right: 95px;
+    top: 73px;
+    font-size: 20px;
+    color: aliceblue;
+}
+.nav-item{
+    position: relative;
+    left: 100px;
+    padding-left: 20px;
+}
